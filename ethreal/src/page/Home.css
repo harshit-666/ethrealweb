@@ -281,6 +281,8 @@ img {
 
 
 .feature-icon {
+  position: relative;
+  left: -30px;
   height: 345px;
   width: 450px;
   font-size: 3rem;

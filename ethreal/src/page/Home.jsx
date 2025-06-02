@@ -13,7 +13,7 @@ const Home = () => {
     {
       title: "(Chief Executive Officer)",
       description: "As CEO of our global BPO company, I am passionate about driving innovation and operational excellence. Our commitment to delivering efficient, tailored solutions enables businesses to thrive in a competitive global market. With a focus on continuous improvement and client satisfaction, we aim to exceed expectations, set new industry standards, and shape the future of outsourcing.",
-      image: './ceo.avif',
+      image: './ceo.jpg',
       name: "(Mr. Piyush Kumar Singh)",
       buttons: [
         { text: "About-Us", type: "primary" },
@@ -23,7 +23,7 @@ const Home = () => {
     {
       title: "(Managing Director)",
       description: "To revolutionize the BPO industry through innovative solutions and exceptional service delivery. We envision a future where businesses can focus on their core competencies while we handle their operational challenges with world-class expertise.",
-      image: './MD.avif',
+      image: './MD.avif.jpg',
       name: "(Mr. Daya Shankar Singh) ",
       buttons: [
         { text: "Our Mission", type: "primary" },
@@ -33,7 +33,7 @@ const Home = () => {
     {
       title: "(Director)",
       description: "As Director of our global BPO enterprise, I am dedicated to driving innovation and operational excellence. By guiding our talented team and leveraging cutting-edge technology, we deliver exceptional service, efficiency, and client satisfaction. Focused on sustainable growth, strategic partnerships, and ethical practices, we create lasting value and positive change on a global scale.",
-      image: './Director.avif',
+      image: './Director.avif.jpg',
       name: "(Mrs. Sakshi Singh) ",
       buttons: [
         { text: "Meet The Team", type: "primary" },
@@ -116,7 +116,7 @@ const Home = () => {
        
        {/* Rest of your component remains the same */}
        <div className='box-vp'>
-       <img src={'./vice president.avif'} alt="" className='img' />
+       <img src={'./vice president.avif.jpg'} alt="" className='img' />
        <h1 className='vp-h12'>Mohd. Numan (Director)</h1>
        <p>
        As the Vice President of Ethereal Assurance Pvt. Ltd., I provide strategic leadership aimed at accelerating growth, streamlining operations, and enhancing our global footprint in the BPO industry. With a clear focus on innovation, client-centric solutions, and operational excellence, I lead cross-functional teams to deliver measurable business outcomes while navigating complex international markets with agility and precision. My commitment to ethical leadership and long-term vision fosters a culture of innovation, accountability, and continuous improvement. By aligning organizational goals with market demands, I work to build sustainable value, strengthen client relationships, and establish Ethereal Assurance as a trusted leader in the industry.</p>
@@ -139,7 +139,7 @@ const Home = () => {
             description="As Operational Manager, I ensure smooth daily operations, optimize processes, and maintain service quality. I work with teams to boost efficiency and meet client expectations. Focused on performance, accountability, and continuous improvement, I help strengthen our reputation as a trusted global BPO partner."
           />
           <FeatureCard
-            icon='./operational manager.jpg'
+            icon='./operational manager.avif.jpg'
             title="Mohd. Faisal (Operational Managers)"
             description="As Operational Manager, I ensure smooth daily operations, optimize processes, and maintain service quality. I work with teams to boost efficiency and meet client expectations. Focused on performance, accountability, and continuous improvement, I help strengthen our reputation as a trusted global BPO partner."
           />
@@ -160,26 +160,14 @@ const Home = () => {
         <h2 className="section-title2">Team Leaders</h2>
 
         <div className="testimonials-grid">
-          <TestimonialCard
-            icon='./sudheer kumar.avif'
-            author="Sudheer Kumar"
-            role="Team Leader"
-          />
+    
           <TestimonialCard
             icon='./Shahwat bishnohi.avif'
             author="Shashwat Bishnohi"
             role="Team Leader"
           />
-          <TestimonialCard 
-            icon='./namit singh.avif'
-            author="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Namit Singh"
-            role="Team Leader"
-          />
-          <TestimonialCard
-            icon='./vineet kumar singh.avif'
-            author="Vineet Kumar Singh"
-            role="Team Leader"
-          />
+      
+          
           <TestimonialCard
             icon='./shivansh tripathi.avif'
             author="Shivansh Tripathi"
@@ -188,6 +176,36 @@ const Home = () => {
           <TestimonialCard
             icon='./yashaf jamal.avif'
             author="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yashaf Jamal"
+            role="Team Leader"
+          />
+          <TestimonialCard
+            icon='./yashaf jamal.avif'
+            author="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yashaf Jamal"
+            role="Team Leader"
+          />
+          <TestimonialCard
+            icon='./Himanshu singh.jpg'
+            author="&nbsp;&nbsp;&nbsp;Himanshu singh"
+            role="Team Leader"
+          />
+          <TestimonialCard
+            icon='./zia.jpg'
+            author="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zia Fatima"
+            role="Team Leader"
+          />
+          <TestimonialCard
+            icon='./Yash Tiwari.jpg'
+            author="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yash Tiwari"
+            role="Team Leader"
+          />
+          <TestimonialCard
+            icon='./Gaurav Pal.jpg'
+            author="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gaurav Pal"
+            role="&nbsp;Team Leader"
+          />
+          <TestimonialCard
+            icon='./Ayush Vishwakarma.jpg'
+            author="Ayush Vishwakarma"
             role="Team Leader"
           />
         </div>
@@ -202,31 +220,24 @@ const Home = () => {
             author="Arbiya Husain"
             role="Hiring Recruiter"
           />
-          <TestimonialCard2
-            icon='./shubham singh rajput.avif'
-            author="Shubham  Rajput"
-            role="&nbsp;&nbsp;&nbsp;&nbsp;Team Leader"
-          />
+          
           <TestimonialCard2
             icon='./mahi chauhan.avif'
             author="Mahi Chauhan"
-            role="&nbsp;&nbsp;&nbsp;Team Leader"
+            role="&nbsp;Quality Advisor"
           />
           <TestimonialCard2
             icon='./sonali kashyap.avif'
             author="Sonali Kashyap"
-            role="&nbsp;&nbsp;&nbsp;Team Leader"
+            role="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A.TL"
           />
-          <TestimonialCard2
-            icon='./damini singh.avif'
-            author="Damini Singh"
-            role="&nbsp;&nbsp;&nbsp;Team Leader"
-          />
+       
           <TestimonialCard2
             icon='./arisha.avif'
             author="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Arisha"
-            role="&nbsp;&nbsp;Team Leader"
+            role="&nbsp;&nbsp;Receptionist"
           />
+          
         </div>
       </section>
 

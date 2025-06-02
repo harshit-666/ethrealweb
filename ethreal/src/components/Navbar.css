@@ -34,21 +34,19 @@
   width: 100%;
 }
 
-.navbar-logo a {
-  font-size: 1.8rem;
-  font-weight: 700;
-  text-decoration: none;
-  transition: all 0.3s ease;
+.navbar-logo {
+width: 20%;
+height: 20%;
 }
 
-.navbar-logo a img {
+/* .navbar-logo a img {
   position: relative;
   left: 0px;
   height: 17%;
   width: 17%;
-}
+} */
 
-.navbar-logo a:hover {
+.navbar-logo :hover {
   transform: scale(1.05);
 }
 

@@ -35,9 +35,9 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
-        <div className="navbar-logo">
-          <Link to="/"><img src='./logo.png' alt="Logo" /></Link>
-        </div>
+
+          <Link to="/"  ><img src='./logo.png' alt="Logo"  className='navbar-logo'/></Link>
+
 
         <div className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>
           <NavLink to="/" text="Home" />
