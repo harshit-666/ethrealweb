@@ -1,0 +1,379 @@
+/* Main Container */
+.offers-slider9 {
+  position: relative;
+  top: 25px;
+  width: 100%;
+  /* padding: 20px; */
+  position: relative;
+  border-radius: 15px;
+  cursor: pointer;
+  
+}
+
+/* Slider Track */
+.slider-container9 {
+  display: flex;
+  overflow: hidden;
+  /* position: relative; */
+  height: 600px;
+  border-radius: 10px;
+}
+
+/* Individual Slide */
+.slide9 {
+  min-height: 30%;
+  min-width: 100%;
+  transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  /* padding: 0 15px; */
+  /* box-sizing: border-box; */
+}
+
+/* Offer Card Styling */
+.offer-card9 {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  height: 100px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  overflow: hidden;
+}
+
+/* Gradient Bar at the top */
+.offer-card9::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(90deg, #ff6b6b, #ff8e53);
+}
+
+.offer-img2{
+  position: relative;
+  top: 90px;
+  left: 550px;
+  width: 300px;
+}
+/* Text styling */
+.offer-title9 {
+  position: relative;
+  left: -600px;
+  top: -0px;
+  font-size: 3.5rem;
+  color: #b30303;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.offer-description9 {
+  position: relative;
+  top: -65px;
+  left: -180px;
+  color: #555555;
+  margin-bottom: 25px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 80%;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.offer-discount9 {
+  position: relative;
+  top: -112px;
+  left: 250px;
+  /* background: linear-gradient(135deg, #ff6b6b, #ff8e53); */
+  color: rgb(0, 0, 0);
+  padding: 8px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  /* box-shadow: 0 4px 8px rgba(255, 107, 107, 0.3); */
+}
+
+/* Navigation Controls */
+.slider-controls9 {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  gap: 15px;
+}
+
+.slider-btn9 {
+  background: #2c3e50;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: 600;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.slider-btn9:hover {
+  background: #34495e;
+  transform: translateY(-2px);
+}
+
+/* Dots Indicator */
+.slider-dots9 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.dot9 {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #bdc3c7;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.dot9.active9 {
+  background: #2c3e50;
+  transform: scale(1.2);
+}
+/* Form Popup Styles */
+.form-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.form-popup {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.form-popup h2 {
+  margin-top: 0;
+  color: #b30303;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #777;
+}
+
+.submit-btn {
+  background: #b30303;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  transition: background 0.3s;
+}
+
+.submit-btn:hover {
+  background: #8a0202;
+}
+
+/* Responsive adjustments */
+
+@media (max-width: 1280px) {
+  .offer-img2 {
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 280px;
+  }
+
+  .offer-title9 {
+    left: -500px;
+    top: -20px;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .offer-description9 {
+    top: -60px;
+    left: -120px;
+    font-size: 26px;
+    text-align: center;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .offer-discount9 {
+    top: -80px;
+    left: 300px;
+    transform: translateX(-50%);
+    font-size: 1.1rem;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .offer-img2 {
+    top: 71px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+  }
+
+  .offer-title9 {
+    left: 0;
+    top: -20px;
+    left: -400px;
+    font-size: 2.5rem;
+    text-align: center;
+
+  }
+
+  .offer-description9 {
+    top: -60px;
+    left: -90px;
+    text-align: center;
+    font-size: 22px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .offer-discount9 {
+    top: -75px;
+    left: 240px;
+    transform: translateX(-50%);
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider-container9 {
+    height: 500px;
+  }
+
+  .slide9 {
+    min-width: 100%;
+  }
+
+  .offer-card9 {
+    height: auto;
+    padding: 20px;
+  }
+
+  .offer-img2 {
+
+    width: 350px;
+    top: 60px;
+    left: 170px;
+  }
+
+  .offer-title9 {
+    font-size: 2.6rem;
+    top: -150px;
+    left: 0px;
+    
+  }
+
+  .offer-description9 {
+    font-size: 18px;
+    top: -170px;
+    left: 0px;
+  }
+
+  .offer-discount9 {
+    font-size: 1rem;
+    top: -185px;
+    left: 130px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider-container9 {
+    height: 450px;
+  }
+
+  .offer-img2 {
+    width: 300px;
+    top: 82px;
+    left: 150px;
+  }
+
+  .offer-title9 {
+
+    font-size: 2.6rem;
+    top: -130px;
+    left: -10px;
+  }
+
+  .offer-description9 {
+    width: 100%;
+    font-size: 16px;
+    top: -150px;
+    left: -10px;
+  }
+
+  .offer-discount9 {
+    font-size: 0.95rem;
+    top: -160px;
+    left: 120px;
+  }
+
+  .form-popup {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .form-group input {
+    font-size: 14px;
+  }
+
+  .submit-btn {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+}
