@@ -957,12 +957,14 @@ position: relative; */
   }
 
   .slide-image {
-    max-width: 250px;
+    width: 250px;
+    position: relative;
+    top: -20px;
   }
 
   .slide-name {
     font-size: 20px;
-    left: 0;
+    left: -100;
   }
 
   .feature-card {
@@ -977,6 +979,8 @@ position: relative; */
     width: 200px;
     height: 200px;
     margin-bottom: 30px;
+    position: relative;
+    left: 75px;
   }
 
   .testimonial-card2 {
@@ -984,6 +988,8 @@ position: relative; */
     width: 180px;
     height: 180px;
      margin-bottom: 35px;
+      position: relative;
+    left: 95px;
   }
 
   .img-wrapper {
