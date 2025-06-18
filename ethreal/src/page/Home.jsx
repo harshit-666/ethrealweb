@@ -179,7 +179,7 @@ const Home = () => {
             role="Team Leader"
           />
           <TestimonialCard
-            icon='./yashaf jamal.avif'
+            icon='./'
             author="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yashaf Jamal"
             role="Team Leader"
           />
@@ -224,7 +224,7 @@ const Home = () => {
           <TestimonialCard2
             icon='./mahi chauhan.avif'
             author="Mahi Chauhan"
-            role="&nbsp;Quality Advisor"
+            role="&nbsp;&nbsp;&nbsp;Compliance"
           />
           <TestimonialCard2
             icon='./sonali kashyap.avif'

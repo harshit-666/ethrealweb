@@ -88,6 +88,53 @@
     height: auto;
 }
 
+.socialmediadiv{
+display: flex;
+position: relative;
+left: 200px;
+top: 100px;
+gap: 40px;
+
+}
+.whatsapp{
+    font-size: 40px;
+   
+}
+.whatsapp:hover{
+      transform: translateY(15px);
+color: rgb(3, 207, 3);
+
+}
+.whatsapp:active{
+color: rgb(1, 121, 1);
+}
+
+
+.insta{
+    font-size: 40px;
+}
+.insta:hover{
+color: rgb(255, 0, 157);
+}
+.insta:active{
+color: rgb(182, 1, 113);
+}
+
+
+
+.fb{
+    font-size: 40px;
+}
+.fb:hover{
+color: rgb(1, 96, 240);
+}
+.fb:active{
+color: rgb(1, 64, 158);
+}
+
+
+
+
 /* Animation classes */
 [data-aos] {
     opacity: 0;

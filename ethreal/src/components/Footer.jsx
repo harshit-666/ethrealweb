@@ -1,5 +1,8 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { GrInstagram } from "react-icons/gr";
+import { RiFacebookBoxFill } from "react-icons/ri";
+import { FaSquareWhatsapp } from "react-icons/fa6";
 import './Footer.css';
 
 const Footer = () => {
@@ -77,6 +80,12 @@ const Footer = () => {
           <p className='footer-text'>+91-907-693-9816</p>
           <p className='footer-text'>+91-522-357-1703</p>
         </div>
+        <div className='socialmediadiv'>
+        <Link to="https://www.instagram.com/ethe_realassurance.pvt.ltd?igsh=MWwyYndnYjZxZHpwYg==" target="_blank"  data-aos="fade-up"  className='insta '> <GrInstagram size={40} /></Link>
+        <Link to="https://www.facebook.com/p/Ethereal-Assurance-Pvt-Ltd-100064119781635/" target="_blank"  data-aos="fade-up"  className='fb'> <RiFacebookBoxFill size={40}/></Link>
+        <Link to="https://api.whatsapp.com/send/?phone=9076939816&text=Hello&type=phone_number&app_absent=0"  target="_blank"  data-aos="fade-up"  className='whatsapp'> <FaSquareWhatsapp size={40}/> </Link>
+        </div>
+
       </footer>
       <div className='footer-img-container'>
         <img src="./logo 2.png" alt="Company Logo" className='footer-img' data-aos="fade-up" />

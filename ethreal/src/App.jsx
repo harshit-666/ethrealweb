@@ -12,8 +12,6 @@ import { useEffect } from 'react';
 import Footer from './components/Footer';
 import Dubai from './page/Dubai';
 import Philipins from './page/Philipins';
-import Lucknow from './page/Lucknow';
-import Delhi from './page/Delhi';
 import Aliganj from './page/Aliganj';
 
 function App() {
@@ -38,9 +36,9 @@ function App() {
           <Route path='/Services' element={<Services />} />
           <Route path='/Dubai' element={<Dubai/>} />
           <Route path='/Philipins' element={<Philipins />} />
-          <Route path='/Lucknow' element={<Lucknow />} />
+       
           <Route path='/Aliganj' element={<Aliganj/>} />
-          <Route path='/Delhi' element={<Delhi />} />
+        
         </Routes>
         <Footer/>
       </BrowserRouter>

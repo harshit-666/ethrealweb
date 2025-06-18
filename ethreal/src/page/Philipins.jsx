@@ -56,6 +56,10 @@ const Philipins = () => {
 
   return (
     <div className="home-page">
+      <div className='totalblur'>
+      <img src={'./pngwing.com.png'} alt="" className='img' />
+      </div>
+
       {/* Background video */}
       <video autoPlay loop muted className="video-background">
         <source src="pinterest_video.mp4" type="video/mp4" />

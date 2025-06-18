@@ -58,9 +58,7 @@ const Navbar = () => {
             <ul className={`dropdown-menu ${branchesOpen ? 'show' : ''}`}>
               <li><Link to="/Dubai" className="dropdown-item">Dubai</Link></li>
               <li><Link to="/Philipins" className="dropdown-item">Philipins</Link></li>
-              <li><Link to="/Lucknow" className="dropdown-item">Lucknow</Link></li>
               <li><Link to="/Aliganj" className="dropdown-item">Aliganj</Link></li>
-              <li><Link to="/delhi" className="dropdown-item">Delhi</Link></li>
             </ul>
           </div>
 
